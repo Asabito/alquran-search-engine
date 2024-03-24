@@ -36,24 +36,7 @@ const basicInputStyle = {
 };
 
 
-// const testDatabaseConnection = async () => {
-//   const dbName = "alquran-SE-db.db";
-//   const db = SQLite.openDatabase(dbName);
-//   // Lakukan query sederhana untuk membaca data dari tabel
-//   db.transaction((tx) => {
-//     tx.executeSql(
-//       'SELECT * FROM surah',
-//       [],
-//       (_, { rows }) => {
-//         // Output hasil query ke konsol
-//         console.log('Data dari database:', rows._array);
-//       },
-//       error => {
-//         console.log('Gagal melakukan query:', error);
-//       }
-//     );
-//   });
-// };
+
 
 
 
